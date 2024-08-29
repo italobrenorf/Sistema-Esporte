@@ -1,0 +1,113 @@
+@import url(./style.css);
+
+body {
+    background-color: black;
+}
+
+.form{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    border: 1px solid;
+    border-collapse: collapse;
+    padding: 10px;
+    text-align: left;
+    margin-bottom: 20px;
+    margin-left: 23%;
+    width: 100%;
+    max-width: 50%;
+    max-height: 100%;
+    background-color: black;
+    color: var(--red);
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    outline: none;
+    text-decoration: none;
+    padding: 40px;
+}
+
+.form p{
+    margin:10px;
+    margin-bottom:10% ;
+    text-align: center;
+}
+.form li{
+margin-bottom: 2%;
+}
+
+.form2{
+    border: 1px solid;
+    border-collapse: collapse;
+    padding: 10px;
+    text-align: left;
+    margin-bottom: 20px;
+    margin-left: 33%;
+    width: 30%;
+    text-align: center;
+    font-size: 24px;
+    background-color: black;
+    color: var(--red);
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    outline: none;
+    text-decoration: none;
+    padding: 10px;
+}
+
+ul{
+
+    list-style-type: none;
+}
+.butao{
+    background-color: #C51212;
+    color: black;
+    border: none;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 10px;
+    margin-top: 2%;
+  }
+
+  .remove{
+    background-color: #C51212;
+    color: black;
+    border: none;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 10px;
+    margin-top: 10%;
+    margin-left: 32%;
+  }
+
+  .update{
+    background-color: #C51212;
+    color: black;
+    border: none;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 10px;
+  }
+
+  .total{
+display: flex;
+align-items: center;
+justify-content: center;
+    background-color: #C51212;
+    color: black;
+    border: none;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 10px;
+    margin-top: 10%;
+    width: 60%;
+    margin-left:20% ;
+  }
+
+  .tilt{
+    border: 3px solid #C51212;
+    padding: 20px;
+    margin: 3%;
+  }

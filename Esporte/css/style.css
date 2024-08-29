@@ -1,0 +1,278 @@
+@import url(./fundo.css);
+@import url(./header.css);
+@import url(./main.css);
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  :root {
+    --text: #EDF1F7;
+    --red: #C51212;
+    --blue: #0041C2;
+    --green: #14B02D;
+    --yellow: #ffc12b;
+  }
+  
+  body {
+    background-color: black;
+  }
+  body, button, a {
+    color: var(--text);
+    font: 400 1rem "Mukta", sans-serif;
+
+  }
+
+  
+  
+  a {
+    text-decoration: none;
+  }
+  
+  button:hover {
+    cursor: pointer;
+  }
+
+  #app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: 900;
+    width: 100%;
+    height: 100vh;
+  }
+
+  .swiper {
+    width: 90%;
+    height: 300px;
+    border-radius: 50px;
+    border: 0.5px solid red;
+    box-shadow: 2px 2px 15px red ;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  
+
+
+
+  @media screen and (max-width: 768px){
+      .respon{
+        width: 100%;
+        flex-direction: column;
+      }
+  }
+
+.titulofoda {
+margin-top: 2%;
+margin-bottom: 2%;
+font-size: 24px;
+background-color: black;
+text-align: center;
+color: red;
+width: 100%;
+padding: 10px;
+border-top: 5px solid red ;
+
+
+}
+
+.ofertas {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 50px;
+  height: 100%;
+  width: 100%;
+  max-width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+  background-color: #C51212;
+  padding: 3%;
+  box-shadow: 2px 2px 15px red ;
+}
+
+
+.marcas {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 50px;
+  height: 150px;
+  margin-left: 5%;
+  margin-right: 5%;
+  background-color: #C51212;
+  margin-bottom: 7%;
+  box-shadow: 2px 2px 15px red ;
+}
+
+footer {
+  background-color: #C51212;
+  display: flex;
+  justify-content: space-around;
+  height: 100px;
+  align-items: center;
+}
+
+.off {
+  border-radius: 15px;
+}
+
+table, th, td {
+  border: 1px solid;
+  border-collapse: collapse;
+  padding: 10px;
+  text-align: left;
+  margin-bottom: 20px;
+  margin-left: 15%;
+  width: 70%;
+  background-color: black;
+  color: var(--red);
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+
+}
+
+.butao{
+
+  background-color: #C51212;
+  color: black;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 20px;
+
+}
+
+.butao2{
+  background-color: #C51212;
+  color: black;
+  border: none;
+  padding: 20px 20px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 10px;
+  margin-left: 60px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.produto2{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  color: white;
+  border-radius: 30px;
+  padding: 10px;
+  margin: 2%;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.produto img{
+  width: 70%;
+  height: 100%;
+ border: 3px solid red;
+ border-radius: 40px;
+}
+
+.product-list{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 80%;
+  height: 100%;
+  background-color: black;
+  padding: 5%;
+  margin: 3%;
+  margin-left: 10%;
+  border-radius: 30px;
+}
+
+.product-list p, h3{
+  margin: 10px;
+}
+
+.product-list h3{
+  color: red;
+}
+
+.product-list img{
+  border: #C51212  3px solid;
+  border-radius: 40px;
+  width: 180px;
+  height: 175px;
+}
+
+.tit-produt{
+  margin-bottom: 20px;
+  margin-top: 20px;
+  font-size: 30px;
+  color: var(--red);
+  text-align: center;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+  margin-left: 15%;
+  height: 100%;
+  width: 70%;
+  background-color: black;
+
+}
+
+
+#butao{
+  width: 60%;
+  height: 100%;
+  color: rgb(0, 0, 0);
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: var(--red);
+  border-style: none;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 0.5em 0.5em 0.5em;
+  text-align: center;
+  margin-left: 10% ;
+
+}
+
+.add{
+  background-color: black;
+  color: red;
+  border: none;
+  margin-top: 5%;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 10px;
+}
+
+.titulofoda2{
+margin-top: 100px;
+margin-bottom: 2%;
+margin-left: 28.5%;
+text-align: center;
+font-size: 24px;
+background-color: red;
+color: black;
+border-radius: 40px;
+width: 40%;
+}

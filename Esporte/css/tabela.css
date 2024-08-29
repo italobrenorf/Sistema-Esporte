@@ -1,0 +1,83 @@
+@import url(../fundo.css);
+@import url(../header.css);
+@import url(../main.css);
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  :root {
+    --text: #EDF1F7;
+    --red: #C51212;
+    --blue: #0041C2;
+    --green: #14B02D;
+    --yellow: #ffc12b;
+  }
+  
+  body, button, a {
+    color: var(--text);
+    font: 400 1rem "Mukta", sans-serif;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  button:hover {
+    cursor: pointer;
+  }
+  table, th, td {
+    border: 1px solid;
+    border-collapse: collapse;
+    padding: 10px;
+    text-align: left;
+    margin-bottom: 20px;
+    margin-left: 15%;
+    width: 70%;
+    background-color: black;
+    color: var(--red);
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+
+  }
+
+  .butao{
+
+    background-color: #C51212;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 20px;
+
+  }
+
+  .butao2{
+    background-color: #C51212;
+    color: black;
+    border: none;
+    padding: 20px 20px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 10px;
+    margin-left: 60px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .titulofoda {
+    margin-top: 2%;
+    margin-bottom: 2%;
+    font-size: 24px;
+    background-color: black;
+    text-align: center;
+    color: red;
+    width: 100%;
+    padding: 10px;
+    border-top: 5px solid red ;
+    
+    
+    }
+  
